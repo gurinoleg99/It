@@ -1,0 +1,95 @@
+.item {
+    width: 200px;
+    height: 200px;
+    background: whitesmoke;
+    display: inline-block;
+    margin: 40px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    width: 200px;
+    height: 40px;
+    background: rgb(82, 81, 81);
+}
+
+.name {
+    width: 120px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.price {
+    width: 76px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.item:hover .footer {
+    background: rgb(0, 255, 221);
+}
+
+.item:hover .img {
+    background: rgb(53, 91, 128);
+}
+
+.kartinka {
+    width: 200px;
+    height: 200px;
+}
+
+.line {
+    margin-left: 15%;
+}
+
+.oter {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+
+.iner {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.b {
+    width: 100px;
+    height: 50px;
+}
+
+.f {
+    margin-left: 40%;
+}
+
+.i {
+    width: 400px;
+    height: 300px;
+}
+
+.f::after {
+    content: "";
+    position: absolute;
+    top: 67px;
+    right: 650px;
+    height: 7px;
+    width: 210px;
+    background-color: #4ec6ab;
+}
+
+.cd1::after {
+    content: "";
+    display: block;
+    top: 67px;
+    right: 650px;
+    height: 7px;
+    width: 210px;
+    background-color: #4ec6ab;
+}
